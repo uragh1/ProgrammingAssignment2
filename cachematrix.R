@@ -11,7 +11,6 @@ makeCacheMatrix <- function(x = matrix()) {
         set <- function(y) {
                 x <<- y
                 inv <<- NULL
-                print(x)
         }
         get <- function() {
                 x
